@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="css/Signup.css">
+</head>
+
+<body>
+  <div class = "container">
+    
+    <div class="Signup-container">
+        <h3 style="font-weight:bold;font-size: 30px;margin:10px 0px 20px 0px;padding: 0px;">Sign up</h3>
+
+      <form action="/action_page.php">
+
+        
+        <label for="cname">Name</label>
+        <input type="text" id="cname" name="cname" placeholder="please input name..">
+
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="please input email..">
+
+        
+        <label for="phone">Tel</label>
+        <input type="text" id="phone" name="phone" placeholder="please input tel..">
+
+       
+        <label for="sex">sex&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" id="man" name="sex" />male
+        <input type="radio" id="woman" name="sex" />female
+        <br /><br />
+
+        
+        <label for="barth">Birthday&nbsp;&nbsp;</label>
+        <input type="date" id="barth" value="1990-01-01" style="border-radius: 5px; border-width: 1px;"/>
+        <br /><br />
+
+       
+        <label for="country">Education</label>
+        <select id="country" name="country">
+          <option>--Secect--</option>
+          <option value="australia">Elementary school and below</option>
+          <option value="canada">junior high school</option>
+          <option value="usa">high school</option>
+          <option>Bachelor</option>
+          <option>master's degree</option>
+          <option>Doctor</option>
+        </select>
+
+        
+        <label for="Signup_password">Password</label>
+        <input type="text" id="password" name="password" placeholder="please input password..">
+        <br /><br />
+
+        
+        <label for="Signup_password">Password angin</label>
+        <input type="text" id="password" name="password" placeholder="please input password again..">
+        <br /><br />
+
+        
+        <label for="subject">Specialty</label>
+        <textarea id="subject" name="subject" placeholder="specialty.." style="height:200px"></textarea>
+
+        
+        <label for="ver_code">Verification code</label>
+        <input type="text" id="vcode" name="vcode" placeholder="please input Verification code..">
+
+        <input type="checkbox" name="agree" style="display: inline-block; value : " 1" />
+        <span style="font-size: 10px;">I have read and agree to the User Registration Agreement.</span>
+        <br /><br />
+
+        <input type="submit" value="Agree to the above agreement and register">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
